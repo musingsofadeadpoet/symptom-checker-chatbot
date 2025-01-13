@@ -20,38 +20,33 @@ Welcome to my first NLP attempt :) This is a Flask-based web application project
 
 1. Clone the repository:
 
-2. git clone https://github.com/musingsofadeadpoet/symptom-checker-chatbot.git
-cd symptom-checker-chatbot
+   git clone https://github.com/musingsofadeadpoet/symptom-checker-chatbot.git
+   cd symptom-checker-chatbot
 
-3. Set up a virtual environment:
+2. Set up a virtual environment:
 
-python -m venv .venv
-source .venv/bin/activate  # For Linux/macOS
-.venv\Scripts\activate   # For Windows
+    python -m venv .venv
+    source .venv/bin/activate  # For Linux/macOS
+    .venv\Scripts\activate   # For Windows
 
-4. Install dependencies:
+3. Install dependencies:
 
 pip install -r requirements.txt
 
-5. Preprocess the data:
+4. Preprocess the data: python src/data_preprocessing.py
 
-python src/data_preprocessing.py
+5. Train the model: python src/train_model.py
 
-6. Train the model:
+6. Run the app: python src/app.py
 
-python src/train_model.py
+8. Open the app in your browser to see the app live: http://127.0.0.1:5000
 
-7. Run the app:
+The app should look like this after you paste the local link to your browser:
 
-python src/app.py
-
-8. Open the app in your browser:
-
-Navigate to http://127.0.0.1:5000
+   
 <img width="1163" alt="Screenshot 2025-01-13 at 10 33 29 AM" src="https://github.com/user-attachments/assets/2556e4bd-85b1-43b0-aeef-7cf2bcd146e5" />
 
 
-The app should look like this after you paste the local link to your browser:
 
 ## Data
 

@@ -14,7 +14,7 @@ Welcome to my first NLP attempt :) This is a Flask-based web application project
 
 - Data Processing: pandas
 
-= Deployment: Local Flask server
+- Deployment: Local Flask server
 
 ## Installation and Setup
 

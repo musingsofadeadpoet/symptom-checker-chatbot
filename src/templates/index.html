@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Checker</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Symptom Checker</h1>
+        <form id="symptom-form">
+            <label for="symptoms">Enter your symptoms:</label><br>
+            <input type="text" id="symptoms" name="symptoms" required><br>
+            <button type="submit">Check Disease</button>
+        </form>
+        <p class="instructions">
+            Please list your symptoms separated by commas (e.g., fever, headache, cough).<br>
+            Limit your input to 3-5 symptoms for accurate results.
+        </p>
+        <div id="result"></div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Core Data Processing Libraries
+pandas==1.5.3
+numpy==1.21.6
+
+# Machine Learning Libraries
+scikit-learn==1.2.2
+joblib==1.2.0
+
+# Natural Language Processing Libraries
+nltk==3.8.1
+spacy==3.6.0
+
+# Web Framework and Deployment
+flask==2.3.3
+gunicorn==21.2.0
+
+# Visualization Libraries
+matplotlib==3.7.1
+seaborn==0.12.2

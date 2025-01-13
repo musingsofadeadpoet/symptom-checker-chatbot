@@ -1,4 +1,3 @@
-# tests/test_chatbot.py
 import unittest
 from src.chatbot import predict_disease, load_model
 

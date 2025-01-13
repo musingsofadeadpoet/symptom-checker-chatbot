@@ -1,4 +1,3 @@
-# src/nlp_pipeline.py
 from sklearn.feature_extraction.text import CountVectorizer
 import spacy
 

@@ -1,5 +1,3 @@
-# src/chatbot.py
-
 import joblib
 from nlp_pipeline import tokenize
 

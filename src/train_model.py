@@ -31,7 +31,6 @@ if __name__ == "__main__":
     train_df = load_data(train_data_path)
     test_df = load_data(test_data_path)
 
-    # Debugging step
     print(f"Train Data Columns: {train_df.columns}")
     print(f"Test Data Columns: {test_df.columns}")
 

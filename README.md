@@ -62,11 +62,11 @@ The preprocessing script combines all symptoms into a single column and normaliz
 
 ### Model Overview
 
-Algorithm: Multinomial Naive Bayes
+- Algorithm: Multinomial Naive Bayes
 
-Feature Extraction: CountVectorizer
+- Feature Extraction: CountVectorizer
 
-Evaluation Metric: Accuracy
+- Evaluation Metric: Accuracy
 
 ### Training Results
 

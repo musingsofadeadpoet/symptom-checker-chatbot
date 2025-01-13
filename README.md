@@ -59,15 +59,6 @@ Source: https://www.kaggle.com/datasets/choongqianzheng/disease-and-symptoms-dat
 The preprocessing script combines all symptoms into a single column and normalizes the text by converting it to lowercase. Missing values are removed, and the data is split into training and testing sets.
 
 ## Machine Learning Model
-
-### Model Overview
-
-- Algorithm: Multinomial Naive Bayes
-
-- Feature Extraction: CountVectorizer
-
-- Evaluation Metric: Accuracy
-
 ### Training Results
 
 The model achieved an accuracy of 1.0 (100%) on the test dataset, as seen below:

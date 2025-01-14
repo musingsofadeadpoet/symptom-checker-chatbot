@@ -23,11 +23,7 @@ Welcome to my first NLP attempt :) This is a Flask-based web application project
    git clone https://github.com/musingsofadeadpoet/symptom-checker-chatbot.git
    cd symptom-checker-chatbot
 
-2. Set up a virtual environment:
-
-    python -m venv .venv
-    source .venv/bin/activate  # For Linux/macOS
-    .venv\Scripts\activate   # For Windows
+2. Set up a virtual environment
 
 3. Install dependencies:
 

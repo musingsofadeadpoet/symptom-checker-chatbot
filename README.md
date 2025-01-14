@@ -25,9 +25,7 @@ Welcome to my first NLP attempt :) This is a Flask-based web application project
 
 2. Set up a virtual environment
 
-3. Install dependencies:
-
-pip install -r requirements.txt
+3. Install dependencies: pip install -r requirements.txt
 
 4. Preprocess the data: python src/data_preprocessing.py
 
